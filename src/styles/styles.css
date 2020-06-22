@@ -1,0 +1,88 @@
+.App {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-button {
+  width: 60%;
+  height: 25%;
+  font-size: xxx-large;
+}
+
+#main-container, #game-field {
+  width: 100%;
+  height: 100%;
+  display: flex
+}
+
+#main-container {
+  flex-direction: column;
+}
+
+#options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#player, #bot {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#game-field {
+  height: 50%;
+  width: 80%;
+  margin: auto;
+}
+
+#options, #shoot {
+  height: 25%;
+}
+
+#options > * {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  margin: auto;
+}
+
+#options > * > img:hover{
+  border-radius: 20%;
+  background-color: blue;
+}
+
+#shoot-button {
+  width: 100%;
+  height: 80%;
+  margin: auto;
+  font-size: xxx-large;
+}
+
+#shoot {
+  width: 80%;
+  margin: auto;
+  display: flex;  
+}
+
+#game-field > * {
+  height: 80%;
+  margin: auto;
+}
+
+#options > h1 {
+  height: auto;
+}
